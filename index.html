@@ -3,116 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Varma Fitness Gym Equipment Store</title>
-    <style>
-        body {<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Red and Blue Example</title>
+    <title>Varma Fitness Gym Equipment</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-
-        h1 {
-            color: red; /* Red heading */
-        }
-
-        p {
-            color: blue; /* Blue paragraph */
-        }
-
-        .red-bg {
-            background-color: red;
-            color: white;
-            padding: 10px;
-            margin: 10px 0;
-        }
-
-        .blue-bg {
-            background-color: blue;
-            color: white;
-            padding: 10px;
-            margin: 10px 0;
-        }
-    </style>
-</head>
-<body>
-    <h1>This is a Red Heading</h1>
-    <p>This is a Blue Paragraph</p>
-
-    <div class="red-bg">Red Background Box</div>
-    <div class="blue-bg">Blue Background Box</div>
-</body>
-</html>
-
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: #f4f4f4;
+            background-color: #121212; /* Dark black background */
+            color: #eee; /* Light text */
         }
 
         header {
-            background-color: #222;
-            color: #fff;
-            padding: 20px 0;
+            background-color: #1a1a1a; /* Slightly lighter black */
             text-align: center;
+            padding: 30px 0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5); /* subtle shadow */
         }
 
         header h1 {
             margin: 0;
+            font-size: 2.5em;
+            color: #ff4c4c; /* Your headline color */
+            text-shadow: 2px 2px 5px #000; /* Soft shadow for depth */
         }
 
         nav {
             display: flex;
             justify-content: center;
-            background-color: #333;
+            background-color: #222;
         }
 
         nav a {
-            color: #fff;
+            color: #eee;
             text-decoration: none;
-            padding: 14px 20px;
+            padding: 14px 25px;
+            transition: 0.3s;
         }
 
         nav a:hover {
-            background-color: #575757;
+            background-color: #444;
+            border-radius: 5px;
         }
 
         .hero {
             background: url('https://images.unsplash.com/photo-1599058917213-02f96d2850a7?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
-            color: white;
             height: 300px;
             display: flex;
-            align-items: center;
             justify-content: center;
+            align-items: center;
             font-size: 2em;
             font-weight: bold;
+            text-shadow: 2px 2px 8px #000; /* Text shadow for readability */
         }
 
         .equipment-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            padding: 20px;
-            gap: 20px;
+            padding: 40px 20px;
+            gap: 25px;
         }
 
         .equipment-card {
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            background-color: #1e1e1e; /* Slightly lighter black for card */
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.6);
             width: 250px;
             text-align: center;
             overflow: hidden;
-            transition: transform 0.2s;
+            transition: transform 0.3s, box-shadow 0.3s;
         }
 
         .equipment-card:hover {
-            transform: scale(1.05);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.8);
         }
 
         .equipment-card img {
@@ -122,20 +86,21 @@
         }
 
         .equipment-card h3 {
-            margin: 10px 0 5px;
+            margin: 15px 0 5px;
+            color: #ff4c4c; /* Accent color */
         }
 
         .equipment-card p {
-            padding: 0 10px 10px;
-            color: #555;
+            padding: 0 10px 15px;
+            color: #ccc;
         }
 
         footer {
-            background-color: #222;
-            color: #fff;
+            background-color: #1a1a1a;
+            color: #ccc;
             text-align: center;
-            padding: 15px 0;
-            margin-top: 20px;
+            padding: 20px 0;
+            margin-top: 30px;
         }
 
         @media (max-width: 600px) {
@@ -174,4 +139,20 @@
             <p>Set of dumbbells ranging from 5kg to 25kg. Ideal for strength training.</p>
         </div>
         <div class="equipment-card">
-            <img sr
+            <img src="https://images.unsplash.com/photo-1610027284007-b11cf163f19f?auto=format&fit=crop&w=500&q=60" alt="Exercise Bike">
+            <h3>Exercise Bike</h3>
+            <p>Stationary bike with adjustable resistance. Perfect for low-impact cardio.</p>
+        </div>
+        <div class="equipment-card">
+            <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=500&q=60" alt="Weight Bench">
+            <h3>Weight Bench</h3>
+            <p>Durable bench for bench press and other strength exercises.</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        &copy; 2025 Varma Fitness. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
